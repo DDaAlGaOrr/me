@@ -33,4 +33,8 @@
     // TOOLTIP
     $('.social-links a').tooltip();
 
+    let date = new Date()
+    let year = date.getFullYear()
+    $('#copyright_year').html(year)
+
 })(jQuery);
