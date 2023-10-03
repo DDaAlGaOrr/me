@@ -325,14 +325,14 @@ b, strong {
 .timeline-wrapper:last-child:before {
   height: 0;
 }
-.timeline-wrapper:before {
+/* .timeline-wrapper:before {
   content: "";
   background: #474559;
   width: 3px;
   height: 100%;
   position: absolute;
   left: 38px;
-}
+} */
 
 .timeline-yr {
   background: #474559;
