@@ -583,8 +583,23 @@ b, strong {
   color: #ffc200 !important;
 }
 
-.skills-container .card{
+.skills-container{
   background-color: #353535;
+  border-radius: 12px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
 
+.skills-container .card{
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  align-items: center;
+}
+
+.skills-container .card img{
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
 }
 
