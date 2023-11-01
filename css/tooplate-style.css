@@ -626,4 +626,10 @@ b, strong {
   color: white;
 }
 
+@media (max-width: 820px) {
+  .skills-container .card .card-title{
+    font-size: 12px;
+  }
+}
+
 
