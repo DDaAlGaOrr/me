@@ -598,8 +598,32 @@ b, strong {
 }
 
 .skills-container .card img{
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
 }
+
+#accordionExample .accordion-button{
+  background-color: #5b5b5b;
+  color: #eee;
+}
+
+#accordionExample{
+  background-color: transparent;
+  border-color: transparent;
+  border: none;
+}
+
+#accordionExample .accordion-item{
+  background-color: #212121;
+  border-color: transparent;
+  border: none;
+  color: white;
+}
+
+#accordionExample .accordion-item p{
+ 
+  color: white;
+}
+
 

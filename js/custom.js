@@ -45,7 +45,8 @@
       { titulo: "WordPress", imagenURL: "images/skills/wordpress.png" },
       { titulo: "EJS", imagenURL: "images/skills/ejs.png" },
       { titulo: "Jquery", imagenURL: "images/skills/free-jquery-8-1175153.png" },
-      { titulo: "Next js", imagenURL: "images/skills/nextjs.png" }
+      { titulo: "Next js", imagenURL: "images/skills/nextjs.png" },
+      { titulo: "Ionic", imagenURL: "images/skills/ionic-icon.svg" }
     ];
 
     var stylesSkills = [
@@ -84,7 +85,7 @@
       frontSkills.forEach(skill=>{
         frontendCards += 
         `
-        <div class="col-3">
+        <div class="col-2" style="text-align:center">
           <div class="card">
             <img
               src=${skill.imagenURL}
@@ -107,7 +108,7 @@
       stylesSkills.forEach(skill=>{
         stylesCards += 
         `
-        <div class="col-3">
+        <div class="col-2" style="text-align:center">
           <div class="card">
             <img
               src=${skill.imagenURL}
@@ -130,7 +131,7 @@
       backendSkills.forEach(skill=>{
         backendCards += 
         `
-        <div class="col-3">
+        <div class="col-2" style="text-align:center">
           <div class="card">
             <img
               src=${skill.imagenURL}
@@ -153,7 +154,7 @@
       databaseSkills.forEach(skill=>{
         databaseCards += 
         `
-        <div class="col-3">
+        <div class="col-2" style="text-align:center">
           <div class="card">
             <img
               src=${skill.imagenURL}
@@ -176,7 +177,7 @@
       toolsSkills.forEach(skill=>{
         toolsCards += 
         `
-        <div class="col-3">
+        <div class="col-2" style="text-align:center">
           <div class="card">
             <img
               src=${skill.imagenURL}
