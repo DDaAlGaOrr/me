@@ -80,6 +80,12 @@
       { titulo: "Filezilla", imagenURL: "images/skills/filezilla.png" },
     ];
 
+    var recomendations = [
+      { name: "Jorge Garcia Cardenas", text: "Altamente recomendable, se destacó por su habilidad para resolver problemas de manera creativa y eficiente. Siempre estaba dispuesto a abordar desafíos complejos y encontrar soluciones innovadoras. Su capacidad para escribir código limpio y bien estructurado fue impresionante, lo que facilitó la colaboración con otros miembros del equipo."},
+      { name: "Jorge Garcia Cardenas", text: "Altamente recomendable, se destacó por su habilidad para resolver problemas de manera creativa y eficiente. Siempre estaba dispuesto a abordar desafíos complejos y encontrar soluciones innovadoras. Su capacidad para escribir código limpio y bien estructurado fue impresionante, lo que facilitó la colaboración con otros miembros del equipo."},
+     
+    ];
+
     function getFrontSkills(){
       let frontendCards = ""
       frontSkills.forEach(skill=>{
@@ -195,11 +201,31 @@
       $('.tools-skills').html(toolsCards)
     }
 
+    function getRecomendations(){
+      let recomendationsCard = ""
+      recomendations.forEach(recomendation=>{
+        recomendationsCard += 
+        `
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">${recomendation.name}</h5>
+              <p class="card-text">${recomendation.text}</p>
+            </div>
+          </div>
+        </div>
+        `
+      })
+
+      $('.recommendations-container').html(recomendationsCard)
+    }
+
     getFrontSkills()
     getStylesSkills()
     getBackendSkills()
     getDatabaseSkills()
     getToolsSkills()
+    getRecomendations()
 
 
 })(jQuery);

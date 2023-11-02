@@ -630,6 +630,17 @@ b, strong {
   .skills-container .card .card-title{
     font-size: 12px;
   }
+  .skills-container {
+    padding: 15px;
+  }
+}
+
+.recommendations-container .card{
+  background-color: #353535;
+}
+.recommendations-container .card-text{
+  font-weight: 500;
+  color:#f7f3f3;
 }
 
 
