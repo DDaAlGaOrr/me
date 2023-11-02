@@ -206,7 +206,7 @@
       recomendations.forEach(recomendation=>{
         recomendationsCard += 
         `
-        <div class="col-4">
+        <div class="col-xl-4 col-sm-12">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">${recomendation.name}</h5>
