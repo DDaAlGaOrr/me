@@ -643,4 +643,15 @@ b, strong {
   color:#f7f3f3;
 }
 
+.about-image img{
+  border-radius: 160px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.about-image{
+  text-align: center;
+}
+
 
