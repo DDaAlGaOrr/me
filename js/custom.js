@@ -81,8 +81,8 @@
     ];
 
     var recomendations = [
-      { name: "Jorge Garcia Cardenas", text: "Altamente recomendable, se destacó por su habilidad para resolver problemas de manera creativa y eficiente. Siempre estaba dispuesto a abordar desafíos complejos y encontrar soluciones innovadoras. Su capacidad para escribir código limpio y bien estructurado fue impresionante, lo que facilitó la colaboración con otros miembros del equipo."},
-      { name: "Jorge Garcia Cardenas", text: "Altamente recomendable, se destacó por su habilidad para resolver problemas de manera creativa y eficiente. Siempre estaba dispuesto a abordar desafíos complejos y encontrar soluciones innovadoras. Su capacidad para escribir código limpio y bien estructurado fue impresionante, lo que facilitó la colaboración con otros miembros del equipo."},
+      { name: "Jorge Garcia Cardenas",companyName:"LTYSMX", text: "Altamente recomendable, se destacó por su habilidad para resolver problemas de manera creativa y eficiente. Siempre estaba dispuesto a abordar desafíos complejos y encontrar soluciones innovadoras. Su capacidad para escribir código limpio y bien estructurado fue impresionante, lo que facilitó la colaboración con otros miembros del equipo."},
+      { name: "Jorge Garcia Cardenas",companyName:"", text: "Altamente recomendable, se destacó por su habilidad para resolver problemas de manera creativa y eficiente. Siempre estaba dispuesto a abordar desafíos complejos y encontrar soluciones innovadoras. Su capacidad para escribir código limpio y bien estructurado fue impresionante, lo que facilitó la colaboración con otros miembros del equipo."},
      
     ];
 
@@ -210,6 +210,7 @@
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">${recomendation.name}</h5>
+              <h6 class="card-title">${recomendation.companyName}</h6>
               <p class="card-text">${recomendation.text}</p>
             </div>
           </div>
