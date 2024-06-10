@@ -62,27 +62,52 @@ https://www.tooplate.com/view/2115-marvel
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a href="#about" class="nav-link"
-                ><span data-hover="About">About</span></a
+                ><span
+                  data-hover="About"
+                  data-section="header_menu"
+                  data-value="about"
+                  >About</span
+                ></a
               >
             </li>
             <li class="nav-item">
               <a href="#skills" class="nav-link"
-                ><span data-hover="Skills">Skills</span></a
+                ><span
+                  data-hover="Skills"
+                  data-section="header_menu"
+                  data-value="skills"
+                  >Skills</span
+                ></a
               >
             </li>
             <li class="nav-item">
               <a href="#experience" class="nav-link"
-                ><span data-hover="Experience">Experience</span></a
+                ><span
+                  data-hover="Experience"
+                  data-section="header_menu"
+                  data-value="experience"
+                  >Experience</span
+                ></a
               >
             </li>
             <li class="nav-item">
               <a href="#contact" class="nav-link"
-                ><span data-hover="Contact">Contact</span></a
+                ><span
+                  data-hover="Contact"
+                  data-section="header_menu"
+                  data-value="contact"
+                  >Contact</span
+                ></a
               >
             </li>
             <li class="nav-item">
               <a href="#recommendations" class="nav-link"
-                ><span data-hover="Recommendations">Recommendations</span></a
+                ><span
+                  data-hover="Recommendations"
+                  data-section="header_menu"
+                  data-value="recommendations"
+                  >Recommendations</span
+                ></a
               >
             </li>
             <li class="d-flex switch-language">
@@ -133,7 +158,7 @@ https://www.tooplate.com/view/2115-marvel
 
               <div class="custom-btn-group mt-4">
                 <a
-                  href="documents/Daniel Gamez CV.pdf"
+                  href="documents/Currículum Vitae Daniel Gamez.pdf"
                   class="btn mr-lg-2 custom-btn custom-btn-bg"
                   download
                   data-section="about"
@@ -148,14 +173,14 @@ https://www.tooplate.com/view/2115-marvel
           <div class="col-lg-5 col-md-12 col-12">
             <div class="about-image svg">
               <img
-                src="images/project/me.jpeg"
+                src="images/project/me.jpg"
                 class="img-fluid"
                 alt="svg image"
               />
             </div>
           </div>
         </div>
-        <div class="row mt-3">
+        <!-- <div class="row mt-3">
           <div class="col-6">
             <h3
               class="color-yellow"
@@ -193,7 +218,7 @@ https://www.tooplate.com/view/2115-marvel
               latest trends and technologies in this ever-evolving field.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -201,25 +226,53 @@ https://www.tooplate.com/view/2115-marvel
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="text-center color-yellow">Skills</h3>
+            <h3
+              class="text-center color-yellow"
+              data-section="skills"
+              data-value="title"
+            >
+              Skills
+            </h3>
             <div class="skills-container">
-              <h3 class="text-center">Frontend</h3>
+              <h3
+                class="text-center"
+                data-section="skills"
+                data-value="frontend"
+              >
+                Frontend
+              </h3>
               <div class="row frontend-skills"></div>
             </div>
             <div class="skills-container">
-              <h3 class="text-center">Styles</h3>
+              <h3 class="text-center" data-section="skills" data-value="styles">
+                Styles
+              </h3>
               <div class="row styles-skills"></div>
             </div>
             <div class="skills-container">
-              <h3 class="text-center">Backend</h3>
+              <h3
+                class="text-center"
+                data-section="skills"
+                data-value="backend"
+              >
+                Backend
+              </h3>
               <div class="row backend-skills"></div>
             </div>
             <div class="skills-container">
-              <h3 class="text-center">Databases</h3>
+              <h3
+                class="text-center"
+                data-section="skills"
+                data-value="database"
+              >
+                Databases
+              </h3>
               <div class="row database-skills"></div>
             </div>
             <div class="skills-container">
-              <h3 class="text-center">Tools</h3>
+              <h3 class="text-center" data-section="skills" data-value="tools">
+                Tools
+              </h3>
               <div class="row tools-skills"></div>
             </div>
           </div>
@@ -283,7 +336,13 @@ https://www.tooplate.com/view/2115-marvel
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-12">
-            <h2 class="mb-4 color-yellow">Work experiences</h2>
+            <h2
+              class="mb-4 color-yellow"
+              data-section="experience"
+              data-value="work-experience"
+            >
+              Work experiences
+            </h2>
 
             <div class="timeline">
               <div class="timeline-wrapper">
@@ -291,35 +350,6 @@ https://www.tooplate.com/view/2115-marvel
                   <span>1</span>
                 </div> -->
                 <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                      <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
-                      >
-                        Frontend React js Remote - Freelance
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseOne"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div class="accordion-body">
-                        <strong>Julio 2022 - Agosto 2022.</strong><br />
-                        I collaborated on the development of a web system using
-                        React.js for ORBEX, where I implemented a module for
-                        importing CSV files and storing them in a Firebase
-                        database. This experience allowed me to apply my skills
-                        in both frontend and backend technologies.
-                      </div>
-                    </div>
-                  </div>
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                       <button
@@ -329,6 +359,8 @@ https://www.tooplate.com/view/2115-marvel
                         data-bs-target="#collapseTwo"
                         aria-expanded="false"
                         aria-controls="collapseTwo"
+                        data-section="experience"
+                        data-value="title-unav"
                       >
                         Internship Navojoa sonora - UNAV
                       </button>
@@ -340,15 +372,23 @@ https://www.tooplate.com/view/2115-marvel
                       data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
-                        <strong>Agosto 2020 - Julio 2023.</strong><br />
-                        <p>
+                        <strong data-section="experience" data-value="date-unav"
+                          >Agosto 2020 - Julio 2023.</strong
+                        ><br />
+                        <p
+                          data-section="experience"
+                          data-value="experience-unav-1"
+                        >
                           1.- Collaborated in the development of the new
                           university website using WordPress and the Elementor
                           plugin. I focused on ensuring an intuitive and
                           engaging user experience.
                         </p>
 
-                        <p>
+                        <p
+                          data-section="experience"
+                          data-value="experience-unav-2"
+                        >
                           2.- I made modifications to the website's price
                           calculator, applying my knowledge of PHP and MySQL. My
                           responsibility was to achieve automatic sending of
@@ -358,7 +398,10 @@ https://www.tooplate.com/view/2115-marvel
                           make it more intuitive for the people who will use it.
                         </p>
 
-                        <p>
+                        <p
+                          data-section="experience"
+                          data-value="experience-unav-3"
+                        >
                           3.- I developed a system for the university cafeteria
                           using technologies such as Node.js and EJS as a
                           templating engine, and Oracle as a database. This
@@ -366,7 +409,10 @@ https://www.tooplate.com/view/2115-marvel
                           students and visitors who consumed food on site.
                         </p>
 
-                        <p>
+                        <p
+                          data-section="experience"
+                          data-value="experience-unav-4"
+                        >
                           4.- Implemented a theses repository for the library,
                           providing students with a space to search and access
                           graduate theses for various purposes. For this
@@ -374,6 +420,46 @@ https://www.tooplate.com/view/2115-marvel
                           and Google Firebase on the backend, which allowed me
                           to implement user authentication and secure storage of
                           thesis documents.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                        data-section="experience"
+                        data-value="title-orbex"
+                      >
+                        Frontend React js Remote - Freelance
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <strong
+                          data-section="experience"
+                          data-value="date-orbex"
+                          >Julio 2022 - Agosto 2022.</strong
+                        ><br />
+                        <p
+                          data-section="experience"
+                          data-value="experience-orbex"
+                        >
+                          I collaborated on the development of a web system
+                          using React.js for ORBEX, where I implemented a module
+                          for importing CSV files and storing them in a Firebase
+                          database. This experience allowed me to apply my
+                          skills in both frontend and backend technologies.
                         </p>
                       </div>
                     </div>
@@ -387,6 +473,8 @@ https://www.tooplate.com/view/2115-marvel
                         data-bs-target="#collapseThree"
                         aria-expanded="false"
                         aria-controls="collapseThree"
+                        data-section="experience"
+                        data-value="title-gloadi"
                       >
                         Full stack web developer Remote - GLOADI
                       </button>
@@ -398,29 +486,19 @@ https://www.tooplate.com/view/2115-marvel
                       data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
-                        <strong>Agosto 2022 - in progress</strong><br />
-                        <p>
+                        <strong
+                          data-section="experience"
+                          data-value="date-gloadi"
+                          >Agosto 2022 - in progress</strong
+                        ><br />
+                        <p
+                          data-section="experience"
+                          data-value="experience-gloadi-1"
+                        >
                           I am collaborating in the development of a social
                           media management application called GGYESS. In this
                           project I play a fundamental role in both the frontend
                           and the backend.
-                        </p>
-
-                        <p>
-                          1.- On the frontend, my main focus has been to
-                          restructure the current design, applying my knowledge
-                          of web technologies such as HTML, CSS, JavaScript and
-                          Bootstrap to achieve a visually attractive and highly
-                          functional interface.
-                        </p>
-
-                        <p>
-                          2.- On the backend, my task is to fix bugs and add new
-                          features to the application. I use PHP along with
-                          codeigniter. Working on this app has strengthened my
-                          skills in frontend and backend development, in
-                          addition to providing experience in complex social
-                          media management projects.
                         </p>
                       </div>
                     </div>
@@ -434,6 +512,8 @@ https://www.tooplate.com/view/2115-marvel
                         data-bs-target="#collapsefour"
                         aria-expanded="false"
                         aria-controls="collapsefour"
+                        data-section="experience"
+                        data-value="title-ltysmx"
                       >
                         Full stack web developer Remote - LTYSMX
                       </button>
@@ -445,35 +525,20 @@ https://www.tooplate.com/view/2115-marvel
                       data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
-                        <strong>Septiembre 2023 - Octubre 2023</strong><br />
-                        <p>
+                        <strong
+                          data-section="experience"
+                          data-value="date-ltysmx"
+                          >Septiembre 2023 - Octubre 2023</strong
+                        ><br />
+                        <p
+                          data-section="experience"
+                          data-value="experience-ltysmx-1"
+                        >
                           I was collaborating in the development of an expense
                           control system for the company Secopla. This project
                           involved the creation of a complete web platform that
                           allowed the company to optimize the management of its
                           internal finances.
-                        </p>
-                        <p>
-                          1.- Frontend: On the client side, I worked on
-                          implementing the UI using essential technologies like
-                          HTML, CSS and JavaScript/jQuery. Additionally, we
-                          optimized the UI with the help of the TailwindCSS
-                          library, resulting in a smoother user experience.
-                          attractive and functional.
-                        </p>
-                        <p>
-                          2.- Backend: On the server side, I developed the
-                          backend using PHP with the CodeIgniter framework,
-                          which ensured a robust and maintainable structure for
-                          the application. This choice of technology enabled
-                          efficient data flow and secure management of expense
-                          requests and approvals.
-                        </p>
-                        <p>
-                          3.- Database:we use MySQL and MySQL Server databases.
-                          These databases played a crucial role in storing and
-                          retrieving data related to expense requests and
-                          transactions.
                         </p>
                       </div>
                     </div>
@@ -484,7 +549,13 @@ https://www.tooplate.com/view/2115-marvel
           </div>
 
           <div class="col-lg-6 col-12">
-            <h2 class="mb-4 mobile-mt-2 color-yellow">Educations</h2>
+            <h2
+              class="mb-4 mobile-mt-2 color-yellow"
+              data-section="experience"
+              data-value="educations"
+            >
+              Educations
+            </h2>
 
             <div class="timeline">
               <div class="timeline-wrapper">
@@ -493,7 +564,10 @@ https://www.tooplate.com/view/2115-marvel
                 </div> -->
                 <div class="timeline-info">
                   <h3>
-                    <span>high school</span
+                    <span
+                      data-section="educations"
+                      data-value="title-high-school"
+                      >high school</span
                     ><small>Cetis 108, guasave. Sin</small>
                   </h3>
                 </div>
@@ -505,9 +579,15 @@ https://www.tooplate.com/view/2115-marvel
                 </div> -->
                 <div class="timeline-info">
                   <h3>
-                    <span>university</span><small>UNAV, Navojoa. Son</small>
+                    <span
+                      data-section="educations"
+                      data-value="title-university"
+                      >university</span
+                    ><small>UNAV, Navojoa. Son</small>
                   </h3>
-                  <p>Systems Engineering</p>
+                  <p data-section="educations" data-value="university">
+                    Systems Engineering
+                  </p>
                 </div>
               </div>
             </div>
@@ -521,7 +601,9 @@ https://www.tooplate.com/view/2115-marvel
       <div class="container">
         <div class="row">
           <div class="col-lg-5 mr-lg-5 col-12">
-            <h3 class="color-yellow">Contact me</h3>
+            <h3 class="color-yellow" data-section="contact" data-value="title">
+              Contact me
+            </h3>
             <ul class="list-unstyled">
               <li>
                 <a
@@ -539,7 +621,7 @@ https://www.tooplate.com/view/2115-marvel
                 <!-- <a href="mailto:daalgaor.17@gmail.com" target="_blank">Email</a> -->
 
                 <p>
-                  <i class="fa-solid fa-envelope"></i> Email:
+                  <i class="fa-solid fa-envelope"></i>
                   daalgaor.17@gmail.com
                 </p>
               </li>
@@ -553,7 +635,13 @@ https://www.tooplate.com/view/2115-marvel
     <!-- recommendations -->
     <section id="recommendations">
       <div class="container">
-        <h3 class="text-center color-yellow">Recommendations</h3>
+        <h3
+          class="text-center color-yellow"
+          data-section="recommendations"
+          data-value="title"
+        >
+          Recommendations
+        </h3>
         <div class="row recommendations-container"></div>
       </div>
     </section>

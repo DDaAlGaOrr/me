@@ -1,11 +1,56 @@
 {
   "about": {
     "presentation": "Hola, soy",
-    "about-me": "Disfruto creando aplicaciones interactivas y sitios web que brinden una experiencia excepcional a los usuarios. Me apasiona combinar un diseño atractivo y una funcionalidad sólida para ofrecer productos de alta calidad. Tengo experiencia trabajando tanto en el lado del frontend como en el backend, lo que me permite comprender los diferentes aspectos del desarrollo y colaborar eficientemente en proyectos multidisciplinarios.",
+    "about-me": " Soy Daniel Gámez, originario de Guasave Sinaloa tengo experiencia trabajando tanto en el lado del frontend como en el backend, lo que me permite comprender los diferentes aspectos del desarrollo y colaborar eficientemente en proyectos multidisciplinarios. Me encanta enfrentarme a retos y buscar soluciones creativas a problemas complejos.",
     "download-csv": "Descargar csv",
     "short-term-goals-title": "Metas a corto plazo",
     "long-term-goals-title": "Metas a largo plazo",
     "short-term-goals": "Terminar mi carrera en Ingeniería de Sistemas. Mantener un buen rendimiento académico y concluir mi último año de una manera satisfactoria e iniciar una maestría o certificación a la seguridad informática o desarrollo backend",
     "long-term-goals": "Aspiro a tener un empleo en el extranjero, particularmente en Estados Unidos Europa o Canadá. Esta ambición está impulsada por mi deseo de trabajar en entornos tecnológicos altamente desarrollados y diversos. Quiero especializarme en el campo del desarrollo backend y la seguridad informatica. Esta especialización me permitirá realizar contribuciones más significativas en proyectos complejos y avanzados, e incluso liderar equipos de desarrollo. Planeo obtener títulos avanzados o certificaciones relevantes para mantenerme al día con las últimas tendencias y tecnologías."
+  },
+  "skills": {
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "styles": "Estilos",
+    "database": "Base de datos",
+    "tools": "Herramientas",
+    "title": "Habilidades"
+  },
+  "experience": {
+    "work-experience": "Experiencia de trabajo",
+    "educations": "Educación",
+    "title-orbex": "Frontend React js Remote - Freelance",
+    "date-orbex": "Junio 2022 - Agosto 2022.",
+    "experience-orbex": "Colaboré en el desarrollo de un sistema web utilizando React.js para la empresa ORBEX. Mi contribución fue la implementación de un módulo que permite la importación de archivos CSV y el almacenamiento de la información en una base de datos creada en Firebase.",
+    "title-unav": "Practicante Navojoa sonora - UNAV",
+    "date-unav": "Agosto 2020 - Julio 2023.",
+    "experience-unav-1": "1.- Participé en el desarrollo de la nueva página web de la universidad, utilizando herramientas como WordPress junto con el plugin Elementor, entre otros. Mi enfoque se centró en garantizar una experiencia de usuario intuitiva y atractiva.",
+    "experience-unav-2": "2.- Realicé modificaciones en la calculadora de precios de la universidad, aplicando mis conocimientos en PHP y MySQL. Me encargué de automatizar el envío de correos tanto al candidato interesado en estudiar en la universidad como al departamento de promoción. Además, realicé ajustes en la interfaz para mejorar su usabilidad.",
+    "experience-unav-3": "3.- Desarrollé un sistema para el comedor universitario utilizando tecnologías como Node.js y EJS como motor de plantillas, y Oracle como base de datos. Este sistema permitió un registro y control eficiente de los alumnos y visitantes que consumían alimentos en el lugar.",
+    "experience-unav-4": "4.- Creé un repositorio de tesis para la biblioteca, proporcionando a los alumnos un espacio donde buscar y acceder a tesis de graduados para diversos fines. Utilicé React js con TypeScript en el frontend y Google Firebase en el backend, lo que me permitió implementar la autenticación de usuarios y el almacenamiento seguro de los documentos de las tesis.",
+    "title-gloadi": "Full stack web developer Remote - GLOADI",
+    "date-gloadi": "Agosto 2022 - septiembre 2023",
+    "experience-gloadi-1": "Colaboré en el desarrollo de una aplicación de administración de redes sociales llamada GGYESS. En este proyecto, desempeñé un rol fundamental tanto en el frontend como en el backend. En el frontend, realicé una reestructuración del diseño actual utilizando HTML, CSS, JavaScript y Bootstrap. En cuanto al backend, resolví bugs y agregué nuevas funcionalidades a la aplicación utilizando PHP en conjunto con el modelo MVC (Modelo-Vista-Controlador).",
+    "title-ltysmx": "Full stack web developer Remote - LTYSMX",
+    "date-ltysmx": "Septiembre 2023 - En progreso",
+    "experience-ltysmx-1": "Colaboré en el desarrollo de un sistema de control de gastos para la empresa SECOPLA. Este proyecto implicó la creación de una plataforma web completa que permitió a la empresa optimizar la gestión de sus finanzas internas."
+  },
+  "educations": {
+    "title-high-school": "Preparatoria",
+    "title-university": "Universidad",
+    "university": "Ingeniería en sistemas"
+  },
+  "header_menu": {
+    "about": "Sobre mi",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "recommendations": "Recomendaciones"
+  },
+  "contact": {
+    "title": "Contactame"
+  },
+  "recommendations": {
+    "title": "Recomendaciones"
   }
 }

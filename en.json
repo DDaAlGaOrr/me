@@ -1,7 +1,7 @@
 {
   "about": {
     "presentation": "Hey, I'm",
-    "about-me": "I enjoy creating interactive applications and websites that provide an exceptional experience to users. I am passionate about combining attractive design and solid functionality to offer high-quality products. I have experience working on both the frontend and backend, which allows me to understand the different aspects of development and collaborate efficiently on multidisciplinary projects.",
+    "about-me": "I am Daniel Gámez, originally from Guasave Sinaloa, Mexico. I have experience working on both the frontend and backend, which allows me to understand the different aspects of development and collaborate efficiently on multidisciplinary projects. I love facing challenges and finding creative solutions to complex problems.",
     "download-csv": "Download Resume",
     "short-term-goals-title": "Short term goals",
     "long-term-goals-title": "Long term goals",
@@ -13,34 +13,44 @@
     "backend": "Backend",
     "styles": "Styles",
     "database": "Database",
-    "tools": "Tools"
+    "tools": "Tools",
+    "title": "Skills"
   },
   "experience": {
     "work-experience": "Work experiences",
     "educations": "Educations",
     "title-orbex": "Frontend React js Remote - Freelance",
     "date-orbex": "June 2022 - August 2022.",
-    "experience-orbex": "I collaborated on the development of a web system using React.js for ORBEX, where I implemented a module for importing CSV files and storing them in a Firebase database. This experience allowed me to apply my skills in both frontend and backend technologies.",
+    "experience-orbex": "I collaborated on the development of a web system using React.js for the company ORBEX. My contribution was the implementation of a module that allows the import of CSV files and the storage of information in a database created in Firebase.",
     "title-unav": "Internship Navojoa sonora - UNAV",
     "date-unav": "August 2020 - July 2023.",
-    "experience-unav-1": "1.- Collaborated in the development of the new university website using WordPress and the Elementor plugin. I focused on ensuring an intuitive and engaging user experience.",
-    "experience-unav-2": "2.- I made modifications to the website's price calculator, applying my knowledge of PHP and MySQL. My responsibility was to achieve automatic sending of emails to both the candidate interested in studying at the university and the promotion department. Additionally, I made modifications to the interface to make it more intuitive for the people who will use it.",
-    "experience-unav-3": "3.- I developed a system for the university cafeteria using technologies such as Node.js and EJS as a templating engine, and Oracle as a database. This system allowed efficient registration and control of students and visitors who consumed food on site.",
-    "experience-unav-4": "4.- Implemented a theses repository for the library, providing students with a space to search and access graduate theses for various purposes. For this project, I used React with TypeScript on the frontend and Google Firebase on the backend, which allowed me to implement user authentication and secure storage of thesis documents.",
+    "experience-unav-1": "1.- I participated in the development of the university's new website, using tools such as WordPress along with the Elementor plugin, among others. My focus was on ensuring an intuitive and engaging user experience.",
+    "experience-unav-2": "2.- I implemented modifications to the university's price calculator, applying my knowledge of PHP and MySQL. I was responsible for automating the sending of emails to both prospective students and the admissions department. Additionally, I made adjustments to the interface to improve its usability.",
+    "experience-unav-3": "3.- I developed a system for the university cafeteria using technologies such as Node.js, EJS as a template engine, and Oracle as a database. This system enabled efficient registration and control of students and visitors who consumed food at the facility.",
+    "experience-unav-4": "4.- I created a thesis repository for the library, providing students with a space to search and access graduate theses for various purposes. I used React.js with TypeScript on the frontend and Google Firebase on the backend, which allowed me to implement user authentication and secure storage of thesis documents.",
     "title-gloadi": "Full stack web developer Remote - GLOADI",
     "date-gloadi": "August 2022 - September 2023",
-    "experience-gloadi-1": "I am collaborating in the development of a social media management application called GGYESS. In this project I play a fundamental role in both the frontend and the backend.",
-    "experience-gloadi-2": "1.- On the frontend, my main focus has been to restructure the current design, applying my knowledge of web technologies such as HTML, CSS, JavaScript and Bootstrap to achieve a visually attractive and highly functional interface.",
-    "experience-gloadi-3": "2.- On the backend, my task is to fix bugs and add new features to the application. I use PHP along with codeigniter. Working on this app has strengthened my skills in frontend and backend development, in addition to providing experience in complex social media management projects.",
+    "experience-gloadi-1": "I collaborated on the development of a social media management application called GGYESS. In this project, I played a key role in both the frontend and backend. In the frontend, I restructured the current design using HTML, CSS, JavaScript, and Bootstrap. Regarding the backend, I resolved bugs and added new features to the application using PHP in conjunction with the MVC (Model-View-Controller) model.",
     "title-ltysmx": "Full stack web developer Remote - LTYSMX",
     "date-ltysmx": "September 2023 - In progress",
-    "experience-ltysmx-1": "I was collaborating in the development of an expense control system for the company Secopla. This project involved the creation of a complete web platform that allowed the company to optimize the management of its internal finances.",
-    "experience-ltysmx-2": "1.- Frontend: On the client side, I worked on implementing the UI using essential technologies like HTML, CSS and JavaScript/jQuery. Additionally, we optimized the UI with the help of the TailwindCSS library, resulting in a smoother user experience. attractive and functional.",
-    "experience-ltysmx-3": "2.- Backend: On the server side, I developed the backend using PHP with the CodeIgniter framework, which ensured a robust and maintainable structure for the application. This choice of technology enabled efficient data flow and secure management of expense requests and approvals.",
-    "experience-ltysmx-4": "3.- Database:we use MySQL and MySQL Server databases. These databases played a crucial role in storing and retrieving data related to expense requests and transactions."
+    "experience-ltysmx-1": "I collaborated on the development of an expense control system for the company SECOPLA. This project involved the creation of a complete web platform that allowed the company to optimize the management of its internal finances."
   },
   "educations": {
     "title-high-school": "High school",
-    "title-university": "university  "
+    "title-university": "University",
+    "university": "Systems Engineering"
+  },
+  "header_menu": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact",
+    "recommendations": "recommendations"
+  },
+  "contact": {
+    "title": "Contact me"
+  },
+  "recommendations": {
+    "title": "Recommendations"
   }
 }
