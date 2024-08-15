@@ -130,17 +130,17 @@
     $(".recommendations-container").html(recomendationsCard);
   }
 
-  async function loadLanguage(fileName){
-    const requestJson = await fetch(`./../${fileName}.json`)
+  async function loadLanguage(fileName) {
+    const requestJson = await fetch(`../${fileName}.json`)
     const text = await requestJson.json()
     const textToChange = $('[data-section]')
 
-    textToChange.each(function() {
+    textToChange.each(function () {
       const section = $(this).attr('data-section');
       const value = $(this).attr('data-value');
 
       var newText = text[section][value];
-        
+
       $(this).text(newText);
     });
   }
@@ -203,6 +203,8 @@
     { titulo: "Jquery", imagenURL: "images/skills/free-jquery-8-1175153.png" },
     { titulo: "Next js", imagenURL: "images/skills/nextjs.png" },
     { titulo: "Ionic", imagenURL: "images/skills/ionic-icon.svg" },
+    { titulo: "Angular", imagenURL: "images/skills/angular.png" },
+    { titulo: "SQLite", imagenURL: "images/skills/sqlite.png" },
   ];
 
   var stylesSkills = [
