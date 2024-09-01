@@ -131,7 +131,7 @@
   }
 
   async function loadLanguage(fileName) {
-    const requestJson = await fetch(`../${fileName}.json`)
+    const requestJson = await fetch(`./../${fileName}.json`)
     const text = await requestJson.json()
     const textToChange = $('[data-section]')
 
@@ -259,11 +259,7 @@
       companyName: "LTYSMX",
       text: "Altamente recomendable, se destacó por su habilidad para resolver problemas de manera creativa y eficiente. Siempre estaba dispuesto a abordar desafíos complejos y encontrar soluciones innovadoras. Su capacidad para escribir código limpio y bien estructurado fue impresionante, lo que facilitó la colaboración con otros miembros del equipo.",
     },
-    {
-      name: "Jorge Garcia Cardenas",
-      companyName: "",
-      text: "Altamente recomendable, se destacó por su habilidad para resolver problemas de manera creativa y eficiente. Siempre estaba dispuesto a abordar desafíos complejos y encontrar soluciones innovadoras. Su capacidad para escribir código limpio y bien estructurado fue impresionante, lo que facilitó la colaboración con otros miembros del equipo.",
-    },
+    
   ];
 
   getFrontSkills();

@@ -32,11 +32,15 @@
     "date-gloadi": "Agosto 2022 - septiembre 2023",
     "experience-gloadi-1": "Colaboré en el desarrollo de una aplicación de administración de redes sociales llamada GGYESS. En este proyecto, desempeñé un rol fundamental tanto en el frontend como en el backend. En el frontend, realicé una reestructuración del diseño actual utilizando HTML, CSS, JavaScript y Bootstrap. En cuanto al backend, resolví bugs y agregué nuevas funcionalidades a la aplicación utilizando PHP en conjunto con el modelo MVC (Modelo-Vista-Controlador).",
     "title-ltysmx": "Full stack web developer Remote - LTYSMX",
-    "date-ltysmx": "Septiembre 2023 - En progreso",
-    "experience-ltysmx-1": "Colaboré en el desarrollo de un sistema de control de gastos para la empresa SECOPLA. Este proyecto implicó la creación de una plataforma web completa que permitió a la empresa optimizar la gestión de sus finanzas internas."
+    "date-ltysmx": "Septiembre 2023 - Octubre 2023",
+    "experience-ltysmx-1": "Colaboré en el desarrollo de un sistema de control de gastos para la empresa SECOPLA. Este proyecto implicó la creación de una plataforma web completa que permitió a la empresa optimizar la gestión de sus finanzas internas.",
+    "title-ltysmx-sipoc": "Aplicación Ionic Angular - LTYSMX",
+    "date-ltysmx-sipoc": "Enero 2023 - Mayo 2024",
+    "experience-ltysmx-sipoc": "Desarrolle una aplicación móvil para la empresa Secopla, destinada a ser utilizada por sus técnicos. Esta aplicación tiene como objetivo agilizar la revisión de trampas mediante el uso de checklists programados para cada visita a las empresas. Además, cuenta con funcionalidad offline, permitiendo su uso incluso en áreas con mala conexión a internet. Al finalizar cada visita, la aplicación genera automáticamente un reporte detallado que se envía tanto al técnico como al cliente, mejorando así la eficiencia y precisión en el servicio."
   },
   "educations": {
     "title-high-school": "Preparatoria",
+    "high-school": "Tecnico en programación",
     "title-university": "Universidad",
     "university": "Ingeniería en sistemas"
   },

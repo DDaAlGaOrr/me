@@ -33,10 +33,14 @@
     "experience-gloadi-1": "I collaborated on the development of a social media management application called GGYESS. In this project, I played a key role in both the frontend and backend. In the frontend, I restructured the current design using HTML, CSS, JavaScript, and Bootstrap. Regarding the backend, I resolved bugs and added new features to the application using PHP in conjunction with the MVC (Model-View-Controller) model.",
     "title-ltysmx": "Full stack web developer Remote - LTYSMX",
     "date-ltysmx": "September 2023 - In progress",
-    "experience-ltysmx-1": "I collaborated on the development of an expense control system for the company SECOPLA. This project involved the creation of a complete web platform that allowed the company to optimize the management of its internal finances."
+    "experience-ltysmx-1": "I collaborated on the development of an expense control system for the company SECOPLA. This project involved the creation of a complete web platform that allowed the company to optimize the management of its internal finances.",
+    "title-ltysmx-sipoc": "Application Ionic Angular - LTYSMX",
+    "date-ltysmx-sipoc": "January 2023 - May 2024",
+    "experience-ltysmx-sipoc": "I developed a mobile application for the company Secopla, intended to be used by its technicians. This application aims to speed up the inspection of traps by using checklists scheduled for each visit to the companies. In addition, it has offline functionality, allowing its use even in areas with poor internet connection. At the end of each visit, the application automatically generates a detailed report that is sent to both the technician and the customer, thus improving efficiency and accuracy in the service."
   },
   "educations": {
     "title-high-school": "High school",
+    "high-school": "Programming Technician",
     "title-university": "University",
     "university": "Systems Engineering"
   },
